@@ -21,3 +21,8 @@ A portfolio website template utilizing [LocomotiveCMS](http://locomotivecms.com/
 
 ## Deployment
 Support the developers by using [Locomotive Hosting](https://www.locomotivehosting.com/) and [Semantic-UI CDN](#)
+
+## Learn
+ * [Making a Blog with LocomotiveCMS](http://doc.locomotivecms.com/making-blog) to extend the project
+ * [Learn Semantic](http://learnsemantic.com/) to customize layout / theme
+
