@@ -165,21 +165,25 @@ meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS
         </div><!-- three column stacked grid -->
 
       </div><!-- fourteen wide column -->
-    </div><!-- centered grid -->
-  </div><!-- /vertical feature segment -->
+    </div><!-- /grid -->
+  </div><!-- /segment -->
   {% endblock %}
+  <!-- /sections block -->
+
 
   {% block 'socialmedia' %}
   <div class="ui inverted vertical segment">
     <div class="ui stackable center aligned page grid">
+
       <div class="row">
         <div class="column">
           <h1 class="ui huge inverted header">
             Find me around the interwebs
           </h1>
-          <div class="ui horizontal divider"><i class="ui huge inverted globe icon"></i></div>
+          <div class="ui horizontal divider"><i class="ui massive inverted cloud icon"></i></div>
         </div>
-      </div>
+      </div><!-- /header -->
+
       <div class="three column logo row">
         <div class="column">
           <a href="https://www.github.com">
@@ -196,10 +200,51 @@ meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS
             <i class="huge inverted square linkedin icon"></i>
           </a>
         </div>
-      </div>
-    </div>
-  </div>
+      </div><!-- /logos -->
+
+    </div><!-- /grid -->
+  </div><!-- /segment -->
   {% endblock %}
+  <!-- /social media block -->
+
+
+  {% block 'contact' %}
+  <div class="ui vertical segment">
+    <div class="ui stackable center aligned page grid">
+
+      <div class="row">
+        <div class="column">
+          <h1 class="ui huge header">
+            Let's Do Great Things Together
+          </h1>
+          <div class="ui horizontal divider"><i class="ui huge heart icon"></i></div>
+        </div>
+      </div><!-- /header -->
+
+      <div class="row">
+        <div class="twelve wide column">
+          <form class="ui form" id="contact_form">
+            <div class="two fields">
+              <div class="field">
+                <input placeholder="Your Name" type="text" id="contact_name" name="contact_name">
+              </div>
+              <div class="field">
+                <input placeholder="Your Email" type="text" id="contact_email" name="contact_email">
+              </div>
+            </div>
+            <div class="field">
+              <textarea placeholder="Your Message" id="contact_message" name="contact_message"></textarea>
+            </div>
+            <div class="ui primary submit button">Send Message</div>
+          </div>
+        </div>
+      </div><!-- /form -->
+
+    </div><!-- /grid -->
+  </div><!-- /segment -->
+  {% endblock %}
+  <!-- /contact block -->
+
 
 {% endblock %}
 
