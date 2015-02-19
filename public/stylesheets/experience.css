@@ -1,0 +1,11 @@
+#experience .event {
+  margin-bottom: 5em;
+}
+
+#experience .event > .label {
+  width: 7em;
+}
+
+#experience .company {
+  font-size: 2em;
+}

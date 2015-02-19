@@ -1,0 +1,45 @@
+--- 
+name: Experiences
+slug: experiences
+description: "Education and Employment that has prepared you for what you do"
+label_field_name: title
+order_by: created_at
+order_direction: asc
+fields: 
+  - title:
+      hint: "Name of employer, school, etc."
+      label: Title
+      localized: false
+      required: true
+      type: string
+      unique: true
+  - subtitle:
+      hint: "Role at company, major, etc."
+      label: Subtitle
+      localized: false
+      required: false
+      type: string
+      unique: false
+  - dates:
+      hint: "String representation of date range"
+      label: Dates
+      localized: false
+      required: false
+      type: string
+      unique: false
+  - summary:
+      hint: "Describe what you did while there"
+      label: Summary
+      localized: false
+      required: true
+      text_formatting: html
+      type: text
+      unique: false
+  - logo:
+      hint: "Logo of company, university, etc."
+      label: Logo
+      localized: false
+      required: false
+      type: file
+      unique: false
+

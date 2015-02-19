@@ -1,0 +1,25 @@
+<div class="event">
+  <div class="label">
+    {% if experience.logo.url %}
+      <img src="{{ experience.logo.url }}">
+    {% else %}
+      <img src="{{ 'wireframe/square-image.png' | theme_image_url }}">
+    {% endif %}
+  </div>
+  <div class="content">
+    <div class="summary">
+      <a class="company" href="#">
+        {{ experience.title }}
+      </a>
+      <div class="date">
+        {{ experience.dates }}
+      </div>
+      <div class="role">
+        {{ experience.subtitle }}
+      </div>
+    </div>
+    <div class="extra text">
+      {{ experience.summary }}
+    </div>
+  </div>
+</div>

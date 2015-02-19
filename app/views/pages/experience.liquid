@@ -1,0 +1,35 @@
+---
+title: Experience
+slug: experience
+is_layout: false
+listed: true
+position: 2
+published: true
+cache_strategy: none
+response_type: text/html
+seo_title: Experience - Attaché - LocomotiveCMS + SemanticUI Example
+meta_description: Et tollit placerat adipiscing mea, impetus conclusionemque cum ei, vel saperet luptatum ea. Feugiat accusam omittantur et per, est quando ceteros accusata cu.
+---
+{% extends 'index' %}
+
+{% block 'main' %}
+
+  <div class="ui vertical segment">
+    <div class="ui very relaxed stackable center aligned page grid">
+      <div class="row">
+        <div class="thirteen wide column">
+
+          <div class="ui feed">
+
+            {% for experience in contents.experiences %}
+              {% include 'experience_row' with experience %}
+            {% endfor %}
+
+          </div><!-- /feed -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
