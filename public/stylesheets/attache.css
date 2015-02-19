@@ -71,6 +71,10 @@ html {
   height: 10rem;
 }
 
+.attache .ui.divider > .icon {
+  font-size: 2em;
+}
+
 /*--------------
     Footer
 ---------------*/
