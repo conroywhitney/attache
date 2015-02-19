@@ -1,4 +1,3 @@
-<a class="item" href="/">Home</a>
-<a class="item" href="/foo">Foo</a>
-<a class="item" href="/bar">Bar</a>
-<a class="item" href="/baz">Baz</a>
+{% for section in contents.sections %}
+  <a class="item" href="/{{ section._slug }}">{{ section.title }}</a>
+{% endfor %}

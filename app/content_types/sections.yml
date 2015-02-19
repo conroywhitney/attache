@@ -1,0 +1,29 @@
+---
+name: Sections
+slug: sections
+description: "Subset of pages which are used for nav blocks and have icons"
+label_field_name: title
+order_by: manually
+fields:
+  - title:
+      type: string
+      hint: "Name of section"
+      label: Title
+      required: true
+      unique: true
+      localized: false
+  - summary:
+      type: string
+      hint: "One-liner about what the section contains"
+      label: Summary
+      required: true
+      unique: true
+      localized: false
+  - icon:
+      type: string
+      label: Icon
+      hint: "SemanticUI icon class name"
+      required: true
+      unique: true
+      localized: false
+

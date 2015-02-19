@@ -1,0 +1,25 @@
+---
+- Experience:
+    _slug: experience
+    summary: Education and Employment
+    icon: student
+- Skills:
+    _slug: skills
+    summary: Unique specialities
+    icon: code
+- Services:
+    _slug: services
+    summary: What I am good at
+    icon: diamond
+- Projects:
+    _slug: projects
+    summary: Sidework and hobbies
+    icon: cubes
+- Philosophy:
+    _slug: philosophy
+    summary: Blueprint of We
+    icon: fire
+- Blog:
+    _slug: blog
+    summary: My professional opinion
+    icon: newspaper
