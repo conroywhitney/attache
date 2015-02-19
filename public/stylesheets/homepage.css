@@ -27,11 +27,13 @@ html {
 #home .masthead .column {
   position: relative;
 }
+#home .masthead.segment h1 {
+  margin-bottom: 0.25em;
+}
 #home .masthead .information {
-  margin: 10em 1em 1em 350px;
+  margin: 10em 1em 1em 1px;
 }
 #home .masthead .information p {
-  max-width: 600px;
 }
 #home .masthead .image {
   position: absolute;

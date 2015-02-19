@@ -1,8 +1,8 @@
 ---
-title: LocomotiveCMS + SemanticUI
+title: Attaché
 published: true
-seo_title: LocomotiveCMS + SemanticUI Example
-meta_description: Lorem ipsum dolor sit amet, vivendum insolens petentium eos eu, id per nostrum repudiandae. Hinc vocent nec an, feugait legendos ea sea.
+seo_title: Attaché - Responsive Web Portfolio
+meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS and SemanticUI. It includes sections for skills, experience, services, references, philosophy, blog entries, and contact form.
 ---
 <!DOCTYPE html>
 <html>
@@ -56,16 +56,15 @@ meta_description: Lorem ipsum dolor sit amet, vivendum insolens petentium eos eu
             {% include 'nav' %}
           </div>
         </div>
-        <img src="images/cat.png" class="ui medium image">
         <div class="ui hidden transition information">
           <h1 class="ui inverted header">
             {{ page.title }}
           </h1>
           <p>{{ meta_description }}</p>
-          <div class="large basic inverted animated fade ui button">
-            <div class="visible content">Come to ICU 2013</div>
-            <div class="hidden content">Register Now</div>
-          </div>
+          <a class="large basic inverted animated fade ui button" href="https://github.com/conroywhitney/attache">
+            <div class="visible content">Learn More</div>
+            <div class="hidden content">View on GitHub</div>
+          </a>
         </div>
       </div>
     </div>
