@@ -11,7 +11,7 @@ html {
             Global
 *******************************/
 
-.menu .right.menu > .mobile.item {
+.attache .menu .right.menu > .mobile.item {
   display: none;
 }
 
@@ -19,23 +19,23 @@ html {
     Masthead
 ---------------*/
 
-.masthead {
+.attache .masthead {
   background-image: url(../images/bg.jpg);
   margin: 0em;
   padding: 5rem 0rem;
 }
-.masthead .column {
+.attache .masthead .column {
   position: relative;
 }
-.masthead.segment h1 {
+.attache .masthead.segment h1 {
   margin-bottom: 0.25em;
 }
-.masthead .information {
+.attache .masthead .information {
   margin: 10em 1em 1em 1px;
 }
-.masthead .information p {
+.attache .masthead .information p {
 }
-.masthead .image {
+.attache .masthead .image {
   position: absolute;
   left: 0%;
   bottom: -110px;
@@ -45,28 +45,28 @@ html {
     Ribbons
 ---------------*/
 
-.segment h1 {
+.attache .segment h1 {
   font-size: 3em;
   margin-bottom: 1em;
 }
 
-.vertical.segment {
+.attache .vertical.segment {
   padding: 12rem 0rem;
 }
 
-.feature.segment {
+.attache .feature.segment {
   margin: 0em;
   padding: 6rem 0rem;
 }
-.feature.segment p {
+.attache .feature.segment p {
   min-height: 50px;
 }
 
-.selection.list {
+.attache .selection.list {
   margin: 0em -0.5em;
 }
 
-.logo.row {
+.attache .logo.row {
   height: 10rem;
 }
 
@@ -74,7 +74,7 @@ html {
     Footer
 ---------------*/
 
-.footer.segment {
+.attache .footer.segment {
   background-color: #000000;
   padding: 3rem 0rem;
 }
@@ -87,50 +87,50 @@ html {
 /* Mobile Only */
 @media only screen and (max-width : 768px) {
 
-  .menu .right.menu > .item {
+  .attache .menu .right.menu > .item {
     display: none;
   }
 
-  .menu .right.menu > .mobile.item {
+  .attache .menu .right.menu > .mobile.item {
     display: block;
   }
-  .menu .right.menu > .mobile.item .menu {
+  .attache .menu .right.menu > .mobile.item .menu {
     left: auto;
     right: 0em;
   }
 
-  h1 {
+  .attache h1 {
     font-size: 1.5em;
   }
-  .masthead.segment .information {
+  .attache .masthead.segment .information {
     margin-left: 170px;
   }
 
-  .masthead.segment .image {
+  .attache .masthead.segment .image {
     width: 170px;
   }
 
-  .masthead.segment .button {
+  .attache .masthead.segment .button {
     font-size: 1rem;
   }
 
-  .overview .divided.grid .header .icon {
+  .attache .overview .divided.grid .header .icon {
     font-size: 1.5em;
   }
 
-  .overview .divided.grid .header + p {
+  .attache .overview .divided.grid .header + p {
     min-height: 0px;
   }
 
-  .masthead.segment .column {
+  .attache .masthead.segment .column {
     font-size: 0.7rem;
   }
 
-  .masthead.segment .column p {
+  .attache .masthead.segment .column p {
     display: none;
   }
 
-  .selection.list .right.floated {
+  .attache .selection.list .right.floated {
     display: none;
   }
 }
