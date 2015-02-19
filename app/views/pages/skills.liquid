@@ -1,0 +1,35 @@
+---
+title: Skills
+slug: skills
+is_layout: false
+listed: true
+position: 2
+published: true
+cache_strategy: none
+response_type: text/html
+seo_title: Skills - Attaché (LocomotiveCMS + SemanticUI Portfolio)
+meta_description: Et tollit placerat adipiscing mea, impetus conclusionemque cum ei, vel saperet luptatum ea. Feugiat accusam omittantur et per, est quando ceteros accusata cu.
+---
+{% extends 'index' %}
+
+{% block 'main' %}
+
+  <div class="ui vertical segment">
+    <div class="ui very relaxed stackable center aligned page grid">
+      <div class="row">
+        <div class="thirteen wide column">
+
+          <ul>
+
+            {% for skill in contents.skills %}
+              {% include 'skill_grid_item' with skill %}
+            {% endfor %}
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

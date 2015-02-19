@@ -1,0 +1,18 @@
+---
+- "Lorem":
+    _slug: lorem
+    url: ~
+    image: ~
+- "Ipsum":
+    _slug: ipsum
+    url: ~
+    image: ~
+- "Dolor":
+    _slug: dolor
+    url: ~
+    image: ~
+- "Sit Amet":
+    _slug: sit-amet
+    url: ~
+    image: ~
+

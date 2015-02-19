@@ -1,0 +1,32 @@
+---
+title: Content type template
+slug: content_type_template
+is_layout: false
+listed: true
+published: true
+cache_strategy: none
+response_type: text/html
+position: 0
+content_type: skills
+---
+{% extends 'index' %}
+
+{% block 'main' %}
+
+  <div class="ui vertical segment">
+    <div class="ui very relaxed stackable center aligned page grid">
+      <div class="row">
+        <div class="thirteen wide column">
+
+
+          <h1>{{ skill.title }}</h1>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+
+

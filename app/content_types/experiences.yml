@@ -1,10 +1,9 @@
---- 
+---
 name: Experiences
 slug: experiences
 description: "Education and Employment that has prepared you for what you do"
 label_field_name: title
-order_by: created_at
-order_direction: asc
+order_by: manually
 fields: 
   - title:
       hint: "Name of employer, school, etc."
@@ -42,4 +41,13 @@ fields:
       required: false
       type: file
       unique: false
-
+  - skills:
+      label: Skills
+      type: many_to_many
+      hint: Which skills did you utilize while there
+      required: false
+      unique: false
+      localized: false
+      class_name: skills
+      inverse_of: experiences
+      ui_enabled: true

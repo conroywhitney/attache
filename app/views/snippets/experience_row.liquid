@@ -21,5 +21,10 @@
     <div class="extra text">
       {{ experience.summary }}
     </div>
+    <div class="extra tags">
+      {% for skill in experience.skills %}
+        <a class="ui tag label" href="{% path_to skill %}">{{ skill.title }}</a>
+      {% endfor %}
+    </div>
   </div>
 </div>
