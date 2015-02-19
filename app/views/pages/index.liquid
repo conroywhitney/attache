@@ -23,17 +23,17 @@ meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS
 
   <!-- stylesheets -->
   {{ 'semantic-1.9.0.css' | stylesheet_tag: 'all' }}
+  {{ 'homepage.css' | stylesheet_tag: 'all' }}
   {% block 'stylesheets' %}
     <!-- page-specific stylesheet; override in other pages -->
-    {{ 'homepage.css' | stylesheet_tag: 'all' }}
   {% endblock %}
 
   <!-- javascripts -->
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
   {{ 'semantic-1.9.0.js' | javascript_tag }}
+  {{ 'attache.js' | javascript_tag }}
   {% block 'javascripts' %}
     <!-- page-specific javascript; override in other pages -->
-    {{ 'homepage.js' | javascript_tag }}
   {% endblock %}
 </head>
 
