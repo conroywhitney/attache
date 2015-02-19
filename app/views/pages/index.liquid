@@ -39,7 +39,7 @@ meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS
 
 <body id="home">
 
-{% block 'banner' %}
+{% block 'masthead' %}
   <div class="ui inverted masthead segment">
     <div class="ui page grid">
       <div class="column">
@@ -61,10 +61,14 @@ meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS
             {{ page.title }}
           </h1>
           <p>{{ meta_description }}</p>
-          <a class="large basic inverted animated fade ui button" href="https://github.com/conroywhitney/attache">
-            <div class="visible content">Learn More</div>
-            <div class="hidden content">View on GitHub</div>
-          </a>
+
+          {% block 'masthead_cta' %}
+            <a class="large basic inverted animated fade ui button" href="https://github.com/conroywhitney/attache">
+              <div class="visible content">Learn More</div>
+              <div class="hidden content">View on GitHub</div>
+            </a>
+          {% endblock %}
+
         </div>
       </div>
     </div>
@@ -87,97 +91,8 @@ meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS
       </div><!-- /header -->
     </div>
 
-    <div class="ui stackable centered page grid">
-      <div class="fourteen wide column">
+    {% include 'sections_grid' %}
 
-        <div class="ui three column center aligned stackable divided grid">
-          <div class="column">
-            <div class="ui icon header">
-              <i class="student icon"></i>
-              Experience
-            </div>
-            <p>Education and Employment</p>
-            <p>
-              <a class="ui primary right labeled icon button" href="/experience">
-                Experience
-                <i class="right chevron icon"></i>
-              </a>
-            </p>
-          </div>
-          <div class="column">
-            <div class="ui icon header">
-              <i class="code icon"></i>
-              Skills
-            </div>
-            <p>Unique specialities</p>
-            <p>
-              <a class="ui primary right labeled icon button" href="/skills">
-                Skills
-                <i class="right chevron icon"></i>
-              </a>
-            </p>
-          </div>
-          <div class="column">
-            <div class="ui icon header">
-              <i class="diamond icon"></i>
-              Services
-            </div>
-            <p>What we can do for you</p>
-            <p>
-              <a class="ui primary right labeled icon button" href="/services">
-                Services
-                <i class="right chevron icon"></i>
-              </a>
-            </p>
-          </div>
-        </div><!-- three column stacked grid -->
-
-        <div class="ui divider"></div>
-
-        <div class="ui three column center aligned stackable divided grid">
-          <div class="column">
-            <div class="ui icon header">
-              <i class="newspaper icon"></i>
-              Blog
-            </div>
-            <p>Perspective on Profession</p>
-            <p>
-              <a class="ui primary right labeled icon button" href="/blog">
-                Blog
-                <i class="right chevron icon"></i>
-              </a>
-            </p>
-          </div>
-          <div class="column">
-            <div class="ui icon header">
-              <i class="fire icon"></i>
-              Philosophy
-            </div>
-            <p>Blueprint of We</p>
-            <p>
-              <a class="ui primary right labeled icon button" href="/philosophy">
-                Philosophy
-                <i class="right chevron icon"></i>
-              </a>
-            </p>
-          </div>
-          <div class="column">
-            <div class="ui icon header">
-              <i class="cubes icon"></i>
-              Projects
-            </div>
-            <p>Sidework and hobbies</p>
-            <p>
-              <a class="ui primary right labeled icon button" href="/projects">
-                Projects
-                <i class="right chevron icon"></i>
-              </a>
-            </p>
-          </div>
-        </div><!-- three column stacked grid -->
-
-      </div><!-- fourteen wide column -->
-    </div><!-- /grid -->
   </div><!-- /segment -->
   {% endblock %}
   <!-- /sections block -->

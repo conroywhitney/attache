@@ -1,11 +1,28 @@
 ---
-title: Page not found
-published: false
+title: 404 Page Not Found
+published: true
 ---
 {% extends index %}
 
 {% block 'main' %}
 
-<p>Page not found</p>
+  <div class="ui vertical feature segment">
+
+    <div class="ui stackable center aligned page grid">
+      <div class="row">
+        <div class="column">
+          <h1 class="ui large header">
+            Were you trying to go to one of these instead?
+          </h1>
+          <div class="ui horizontal divider"><i class="ui large frown icon"></i></div>
+        </div>
+      </div><!-- /header -->
+    </div>
+
+    {% include 'sections_grid' %}
+
+  </div><!-- /segment -->
 
 {% endblock %}
+
+{% block 'masthead/masthead_cta' %}{% endblock %}
