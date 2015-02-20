@@ -9,23 +9,37 @@ response_type: text/html
 position: 0
 content_type: skills
 ---
+{% assign section = 'skills' %}
+{% capture masthead_description %}by {{ skill.description }}{% endcapture %}
+
 {% extends 'index' %}
 
 {% block 'main' %}
 
   <div class="ui vertical segment">
-    <div class="ui very relaxed stackable center aligned page grid">
-      <div class="row">
-        <div class="thirteen wide column">
+    <div class="ui stackable center aligned page grid">
+
+      {% include 'section_header_with_divider_icon' with icon: 'newspaper', text: "Blog Posts" %}
+
+      {% with_scope skills: skill._slug %}
+        {% include 'blog_posts_segment' %}
+      {% endwith_scope %}
+
+    </div><!-- /grid -->
+  </div><!-- /segment -->
 
 
-          <h1>{{ skill.title }}</h1>
+  <div class="ui stackable vertical segment">
+    <div class="ui center aligned page grid">
 
+      {% include 'section_header_with_divider_icon' with icon: 'student', text: "Experience" %}
 
-        </div>
-      </div>
-    </div>
-  </div>
+      {% with_scope skills: skill._slug %}
+        {% include 'experience_segment' %}
+      {% endwith_scope %}
+
+    </div><!-- /grid -->
+  </div><!-- /segment -->
 
 {% endblock %}
 
