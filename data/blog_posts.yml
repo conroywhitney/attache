@@ -14,8 +14,7 @@
       dissentias, et vix cetero ceteros, est placerat lobortis deterruisset et. Deserunt
       percipitur vim et, nulla fuisset vix ad.
     published_on: 02/19/2015
-    skills:
-    - sit-amet
+    skills: []
 - Ei augue movet rationibus sea, eu corrumpit definitiones sea:
     _slug: ei-augue-movet-rationibus-sea-eu-corrumpit-definitiones-sea
     byline: Conroy Whitney
@@ -65,7 +64,6 @@
     - lorem
     - ipsum
     - dolor
-    - sit-amet
 - Id malis nostrud ius:
     _slug: id-malis-nostrud-ius
     byline: Conroy Whitney
