@@ -3,20 +3,18 @@
   <div class="ui left aligned card">
 
     <div class="content">
-      <div class="ui header">
+      <a class="ui header" href="{% path_to skill %}" title="{{ skill.title }}">
         {% if skill.image.url %}
           <img src="{{ skill.image }}" class="ui middle aligned avatar image">
         {% else %}
           <img src="{{ 'wireframe/square-image.png' | theme_image_url }}" class="ui middle aligned avatar image">
         {% endif %}
 
-        <a href="{% path_to skill %}" title="{{ skill.title }}">
-          {{ skill.title }}
-        </a>
-      </div><!-- /header -->
+        {{ skill.title }}
+      </a><!-- /header -->
 
       <div class="ui statistics">
-        <div class="ui tiny statistic">
+        <a class="ui tiny statistic" href="/experience#{{ skill._slug }}">
           <div class="value">
             <i class="student icon"></i>
             4
@@ -24,8 +22,8 @@
           <div class="label">
             Experiences
           </div>
-        </div>
-        <div class="ui tiny statistic">
+        </a>
+        <a class="ui tiny statistic" href="/projects#{{ skill._slug }}">
           <div class="value">
             <i class="cubes icon"></i>
             7
@@ -33,8 +31,8 @@
           <div class="label">
             Projects
           </div>
-        </div>
-        <div class="ui tiny statistic">
+        </a>
+        <a class="ui tiny statistic" href="/blog#{{ skill._slug }}">
           <div class="value">
             <i class="newspaper icon"></i>
             3
@@ -42,12 +40,12 @@
           <div class="label">
             Blog Posts
           </div>
-        </div>
+        </a>
       </div><!-- /statistics -->
 
     </div><!-- /content -->
 
-    <a class="ui bottom attached button">
+    <a class="ui bottom attached button" href="{% path_to skill %}">
       {{ skill.title }}
       <i class="long right arrow icon"></i>
     </a>
