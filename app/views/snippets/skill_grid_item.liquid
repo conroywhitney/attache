@@ -5,7 +5,7 @@
     <div class="content">
       <a class="ui header" href="{% path_to skill %}" title="{{ skill.title }}">
         {% if skill.image.url %}
-          <img src="{{ skill.image }}" class="ui middle aligned avatar image">
+          <img src="{{ skill.image.url }}" class="ui middle aligned avatar image">
         {% else %}
           <img src="{{ 'wireframe/square-image.png' | theme_image_url }}" class="ui middle aligned avatar image">
         {% endif %}

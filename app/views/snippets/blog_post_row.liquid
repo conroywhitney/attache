@@ -1,0 +1,28 @@
+<div class="sixteen wide column">
+  <div class="ui piled segment">
+    <div class="ui ribbon label">
+      {{ blog_post.published_on | date: "%Y-%m-%d" }}
+    </div><!-- /ribbon -->
+
+    <h3 class="ui header">
+      <a href="{% path_to blog_post %}">
+        {{ blog_post.title }}
+      </a>
+    </h3>
+
+    <div class="ui tag labels">
+      {% for skill in blog_post.skills %}
+        <a class="ui label" href="{% path_to skill %}">
+          {{ skill.title }}
+        </a>
+      {% endfor %}
+    </div>
+
+    <p>{{ blog_post.description }}</p>
+
+    <a class="ui primary button" href="{% path_to blog_post %}">
+      Read more
+      <i class="icon long right arrow"></i>
+    </a>
+  </div>
+</div>
