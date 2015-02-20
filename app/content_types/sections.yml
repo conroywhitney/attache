@@ -1,34 +1,36 @@
 ---
 name: Sections
+description: Subset of pages which are used for nav blocks and have icons
 slug: sections
-description: "Subset of pages which are used for nav blocks and have icons"
 label_field_name: title
 order_by: manually
+order_direction: asc
 fields:
-  - title:
-      type: string
-      hint: "Name of section"
-      label: Title
-      required: true
-      unique: true
-      localized: false
-  - summary:
-      type: string
-      hint: "One-liner about what the section contains"
-      label: Summary
-      required: true
-      unique: true
-      localized: false
-  - icon:
-      type: string
-      label: Icon
-      hint: "SemanticUI icon class name"
-      required: true
-      unique: true
-      localized: false
-  - published:
-      type: boolean
-      label: Published
-      hint: "Whether to show in nav / front page"
-      required: true
-      localized: false
+- title:
+    label: Title
+    type: string
+    hint: Name of section
+    required: true
+    unique: true
+    localized: false
+- summary:
+    label: Summary
+    type: string
+    hint: One-liner about what the section contains
+    required: true
+    unique: true
+    localized: false
+- icon:
+    label: Icon
+    type: string
+    hint: SemanticUI icon class name
+    required: true
+    unique: true
+    localized: false
+- published:
+    label: Published
+    type: boolean
+    hint: Whether to show in nav / front page
+    required: true
+    unique: false
+    localized: false

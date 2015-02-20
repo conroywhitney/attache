@@ -1,45 +1,47 @@
 ---
 name: Skils
+description: Unique technologies, frameworks, tools, etc. that you have used in the
+  past
 slug: skills
-description: "Unique technologies, frameworks, tools, etc. that you have used in the past"
 label_field_name: title
 order_by: manually
+order_direction: asc
 fields:
-  - title:
-      hint: "Name of skill"
-      label: Title
-      localized: false
-      required: true
-      type: string
-      unique: true
-  - description:
-      type: string
-      label: Description
-      hint: "Summary of experience with skill"
-      required: false
-      unique: false
-      localized: false
-  - url:
-      hint: "Link to skill homepage on interwebs"
-      label: URL
-      localized: false
-      required: false
-      type: string
-      unique: true
-  - image:
-      hint: "Image or logo associated with skill"
-      label: Image
-      localized: false
-      required: false
-      type: file
-      unique: false
-  - experiences:
-      label: Experiences
-      type: many_to_many
-      hint: During which experiences have you utilized this skill
-      required: false
-      unique: false
-      localized: false
-      class_name: experiences
-      inverse_of: skills
-      ui_enabled: true
+- title:
+    label: Title
+    type: string
+    hint: Name of skill
+    required: true
+    unique: true
+    localized: false
+- description:
+    label: Description
+    type: string
+    hint: Summary of experience with skill
+    required: false
+    unique: false
+    localized: false
+- url:
+    label: URL
+    type: string
+    hint: Link to skill homepage on interwebs
+    required: false
+    unique: true
+    localized: false
+- image:
+    label: Image
+    type: file
+    hint: Image or logo associated with skill
+    required: false
+    unique: false
+    localized: false
+- experiences:
+    label: Experiences
+    type: many_to_many
+    hint: During which experiences have you utilized this skill
+    required: false
+    unique: false
+    localized: false
+    class_name: experiences
+    inverse_of: skills
+    ui_enabled: true

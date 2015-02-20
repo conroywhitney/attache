@@ -18,6 +18,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
+
 ;(function ( $, window, document, undefined ) {
 
 $.site = $.fn.site = function(parameters) {

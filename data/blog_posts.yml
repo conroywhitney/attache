@@ -1,42 +1,87 @@
 ---
 - Ex oportere ullamcorper mel:
     _slug: ex-oportere-ullamcorper-mel
-    byline: "Conroy Whitney"
-    description: "Lorem ipsum dolor sit amet, modus habemus honestatis at vim, eu denique electram qui. Ne labore elaboraret mea, eam ad vero fierent definitionem. Modus veniam commune qui te, modo labore duo no, graece cetero nec te. An usu ullum sonet eligendi, no pro dolorum minimum iudicabit. Ei dolore essent deseruisse nam, ea eam elitr dicunt viderer. Pri no nihil doctus."
-    content: "Dicunt consequuntur interpretaris nam id, vim an pericula pertinacia, vis prompta suscipit intellegam no. Oporteat petentium eu nam, has natum augue aeque eu. Eam commune mentitum ut, soluta complectitur cu pri, est alii periculis reprimique ne. Dolorum vocibus sit te, eos causae nominati ea. Eum ex paulo dissentias, et vix cetero ceteros, est placerat lobortis deterruisset et. Deserunt percipitur vim et, nulla fuisset vix ad."
+    byline: Conroy Whitney
+    description: Lorem ipsum dolor sit amet, modus habemus honestatis at vim, eu denique
+      electram qui. Ne labore elaboraret mea, eam ad vero fierent definitionem. Modus
+      veniam commune qui te, modo labore duo no, graece cetero nec te. An usu ullum
+      sonet eligendi, no pro dolorum minimum iudicabit. Ei dolore essent deseruisse
+      nam, ea eam elitr dicunt viderer. Pri no nihil doctus.
+    content: Dicunt consequuntur interpretaris nam id, vim an pericula pertinacia,
+      vis prompta suscipit intellegam no. Oporteat petentium eu nam, has natum augue
+      aeque eu. Eam commune mentitum ut, soluta complectitur cu pri, est alii periculis
+      reprimique ne. Dolorum vocibus sit te, eos causae nominati ea. Eum ex paulo
+      dissentias, et vix cetero ceteros, est placerat lobortis deterruisset et. Deserunt
+      percipitur vim et, nulla fuisset vix ad.
     published_on: 02/19/2015
-    image: ~
     skills:
-      - ispum
-      - sit-amet
-- "Ei augue movet rationibus sea, eu corrumpit definitiones sea":
+    - sit-amet
+- Ei augue movet rationibus sea, eu corrumpit definitiones sea:
     _slug: ei-augue-movet-rationibus-sea-eu-corrumpit-definitiones-sea
-    byline: "Conroy Whitney"
-    description: "Te est harum omnes, admodum disputando repudiandae ex eam, in cum petentium instructior. Eum quas corpora in, omnesque tincidunt id per. Ne pro nostrud philosophia, in virtute diceret mnesarchum quo. An mutat cetero signiferumque sit."
-    content: "<p>Wisi consetetur id nam, eum alii fierent ex. Cum quaestio praesent deterruisset te, te qui eius cetero consequat. Quo an nisl prima molestie, cu quas harum eum. Alienum propriae theophrastus an duo. Latine persius quo no. Has dico numquam voluptatibus eu, nec delenit nusquam te, est elit mediocrem at. Eos cu aeterno persius, ad cum decore putent facilisis.</p><p>His quaeque placerat sententiae eu, vim brute possit intellegebat te, mel ei causae eirmod quaerendum. Ne eum tacimates iudicabit, ex nec dicit mentitum. Eu duo stet quaeque. Clita nostro evertitur at duo, ne sed salutandi accusamus, his id inani sonet. Recusabo referrentur ea pro, debet omnes iuvaret has et.</p><p>Id malis nostrud ius, et per ludus nonumes fabellas, vivendum eleifend cu est. Duo ne cibo postulant patrioque, ex pri vero altera. Pri ea dicam saperet pertinacia, graeco scaevola laboramus mel ut, quo te facilis placerat sadipscing. Duo an semper vituperata. Id mei omnes solet facilis, alii eruditi abhorreant ea pri.</p>"
+    byline: Conroy Whitney
+    description: Te est harum omnes, admodum disputando repudiandae ex eam, in cum
+      petentium instructior. Eum quas corpora in, omnesque tincidunt id per. Ne pro
+      nostrud philosophia, in virtute diceret mnesarchum quo. An mutat cetero signiferumque
+      sit.
+    content: <p>Wisi consetetur id nam, eum alii fierent ex. Cum quaestio praesent
+      deterruisset te, te qui eius cetero consequat. Quo an nisl prima molestie, cu
+      quas harum eum. Alienum propriae theophrastus an duo. Latine persius quo no.
+      Has dico numquam voluptatibus eu, nec delenit nusquam te, est elit mediocrem
+      at. Eos cu aeterno persius, ad cum decore putent facilisis.</p><p>His quaeque
+      placerat sententiae eu, vim brute possit intellegebat te, mel ei causae eirmod
+      quaerendum. Ne eum tacimates iudicabit, ex nec dicit mentitum. Eu duo stet quaeque.
+      Clita nostro evertitur at duo, ne sed salutandi accusamus, his id inani sonet.
+      Recusabo referrentur ea pro, debet omnes iuvaret has et.</p><p>Id malis nostrud
+      ius, et per ludus nonumes fabellas, vivendum eleifend cu est. Duo ne cibo postulant
+      patrioque, ex pri vero altera. Pri ea dicam saperet pertinacia, graeco scaevola
+      laboramus mel ut, quo te facilis placerat sadipscing. Duo an semper vituperata.
+      Id mei omnes solet facilis, alii eruditi abhorreant ea pri.</p>
     published_on: 01/01/1970
-    image: ~
     skills:
-      - lorem
-      - dolor
-- "Minim dolor possit at mel, partem dolores mel et, an est posse qualisque":
+    - lorem
+    - dolor
+- Minim dolor possit at mel, partem dolores mel et, an est posse qualisque:
     _slug: minim-dolor-possit-at-mel-partem-dolores-mel-et-an-est-posse-qualisque
-    byline: "Conroy Whitney"
-    description: "Minim dolor possit at mel, partem dolores mel et, an est posse qualisque. Ne ignota singulis torquatos mel, duo praesent deterruisset interpretaris ei, ex omittam recusabo sea. Ut vis integre gubergren cotidieque, elitr saepe diceret nam no. Pro unum assueverit interesset no. Quo vide accusamus ut."
-    content: "<p>Per assentior definitiones ne, falli vitae ut vel, timeam vivendo deleniti in vim. Qui et alienum dissentiet philosophia, cum at ridens delenit scriptorem, per ea percipit interesset dissentiunt. Eros nullam inermis vel ea, purto pericula voluptaria has ea, an aeque tollit exerci pri. Pri ea nostro eirmod.</p><p>Omnes virtute vix ei, soleat volumus in eum. Id duo ponderum vituperata, cu delicata dissentias sed. Ut mei maiorum epicuri, graece oporteat postulant nec id, eum eu odio consequat. Ornatus definitiones vix te. Est percipit vivendum patrioque eu, ex eum consul possit semper.</p><p>Eam an quodsi periculis repudiandae. Pro legendos molestiae intellegebat eu, case reprimique scripserit mea ei. Ad iusto vocent utamur vis, duo ad scribentur intellegebat. Ad vim saperet epicuri definitionem, et eruditi vivendum conceptam nec, eam quando partem ex. Mel eu antiopam conclusionemque, partem aeterno atomorum nam cu. Maluisset theophrastus at vel, dico corpora mel et.</p>"
+    byline: Conroy Whitney
+    description: Minim dolor possit at mel, partem dolores mel et, an est posse qualisque.
+      Ne ignota singulis torquatos mel, duo praesent deterruisset interpretaris ei,
+      ex omittam recusabo sea. Ut vis integre gubergren cotidieque, elitr saepe diceret
+      nam no. Pro unum assueverit interesset no. Quo vide accusamus ut.
+    content: <p>Per assentior definitiones ne, falli vitae ut vel, timeam vivendo
+      deleniti in vim. Qui et alienum dissentiet philosophia, cum at ridens delenit
+      scriptorem, per ea percipit interesset dissentiunt. Eros nullam inermis vel
+      ea, purto pericula voluptaria has ea, an aeque tollit exerci pri. Pri ea nostro
+      eirmod.</p><p>Omnes virtute vix ei, soleat volumus in eum. Id duo ponderum vituperata,
+      cu delicata dissentias sed. Ut mei maiorum epicuri, graece oporteat postulant
+      nec id, eum eu odio consequat. Ornatus definitiones vix te. Est percipit vivendum
+      patrioque eu, ex eum consul possit semper.</p><p>Eam an quodsi periculis repudiandae.
+      Pro legendos molestiae intellegebat eu, case reprimique scripserit mea ei. Ad
+      iusto vocent utamur vis, duo ad scribentur intellegebat. Ad vim saperet epicuri
+      definitionem, et eruditi vivendum conceptam nec, eam quando partem ex. Mel eu
+      antiopam conclusionemque, partem aeterno atomorum nam cu. Maluisset theophrastus
+      at vel, dico corpora mel et.</p>
     published_on: 02/22/2222
-    image: ~
     skills:
-      - lorem
-      - ipsum
-      - dolor
-      - sit-amet
-- "Id malis nostrud ius":
+    - lorem
+    - ipsum
+    - dolor
+    - sit-amet
+- Id malis nostrud ius:
     _slug: id-malis-nostrud-ius
-    byline: "Conroy Whitney"
-    description: "Vivendum eleifend cu est"
-    content: "<p>Per assentior definitiones ne, falli vitae ut vel, timeam vivendo deleniti in vim. Qui et alienum dissentiet philosophia, cum at ridens delenit scriptorem, per ea percipit interesset dissentiunt. Eros nullam inermis vel ea, purto pericula voluptaria has ea, an aeque tollit exerci pri. Pri ea nostro eirmod.</p><p>Omnes virtute vix ei, soleat volumus in eum. Id duo ponderum vituperata, cu delicata dissentias sed. Ut mei maiorum epicuri, graece oporteat postulant nec id, eum eu odio consequat. Ornatus definitiones vix te. Est percipit vivendum patrioque eu, ex eum consul possit semper.</p><p>Eam an quodsi periculis repudiandae. Pro legendos molestiae intellegebat eu, case reprimique scripserit mea ei. Ad iusto vocent utamur vis, duo ad scribentur intellegebat. Ad vim saperet epicuri definitionem, et eruditi vivendum conceptam nec, eam quando partem ex. Mel eu antiopam conclusionemque, partem aeterno atomorum nam cu. Maluisset theophrastus at vel, dico corpora mel et.</p>"
+    byline: Conroy Whitney
+    description: Vivendum eleifend cu est
+    content: <p>Per assentior definitiones ne, falli vitae ut vel, timeam vivendo
+      deleniti in vim. Qui et alienum dissentiet philosophia, cum at ridens delenit
+      scriptorem, per ea percipit interesset dissentiunt. Eros nullam inermis vel
+      ea, purto pericula voluptaria has ea, an aeque tollit exerci pri. Pri ea nostro
+      eirmod.</p><p>Omnes virtute vix ei, soleat volumus in eum. Id duo ponderum vituperata,
+      cu delicata dissentias sed. Ut mei maiorum epicuri, graece oporteat postulant
+      nec id, eum eu odio consequat. Ornatus definitiones vix te. Est percipit vivendum
+      patrioque eu, ex eum consul possit semper.</p><p>Eam an quodsi periculis repudiandae.
+      Pro legendos molestiae intellegebat eu, case reprimique scripserit mea ei. Ad
+      iusto vocent utamur vis, duo ad scribentur intellegebat. Ad vim saperet epicuri
+      definitionem, et eruditi vivendum conceptam nec, eam quando partem ex. Mel eu
+      antiopam conclusionemque, partem aeterno atomorum nam cu. Maluisset theophrastus
+      at vel, dico corpora mel et.</p>
     published_on: 12/31/2345
-    image: ~
     skills: []
-

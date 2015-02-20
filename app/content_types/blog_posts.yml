@@ -1,60 +1,61 @@
 ---
 name: Blog Posts
+description: Write about what you know
 slug: blog_posts
-description: "Write about what you know"
 label_field_name: title
 order_by: manually
-fields: 
-  - title:
-      hint: "Title of blog post"
-      label: Title
-      localized: false
-      required: true
-      type: string
-      unique: true
-  - byline:
-      label: ByLine
-      type: string
-      hint: Who wrote this blog entry
-      required: false
-      unique: false
-      localized: false
-  - description:
-      hint: "Short description of blog post"
-      label: Description
-      localized: false
-      required: true
-      type: text
-      unique: false
-  - content:
-      label: Content
-      type: text
-      hint: Entire body of text for this blog entry in rich HTML format
-      required: true
-      unique: false
-      localized: false
-      text_formatting: html
-  - published_on:
-      label: Date Published
-      type: date
-      hint: The date when this blog entry was released (can backdate)
-      required: false
-      unique: false
-      localized: false
-  - image:
-      hint: "Image related to blog post (logo, etc.)"
-      label: Image
-      localized: false
-      required: false
-      type: file
-      unique: false
-  - skills:
-      label: Skills
-      type: many_to_many
-      hint: Which skills are related to this blog post
-      required: false
-      unique: false
-      localized: false
-      class_name: skills
-      inverse_of: blog_posts
-      ui_enabled: true
+order_direction: asc
+fields:
+- title:
+    label: Title
+    type: string
+    hint: Title of blog post
+    required: true
+    unique: true
+    localized: false
+- byline:
+    label: ByLine
+    type: string
+    hint: Who wrote this blog entry
+    required: false
+    unique: false
+    localized: false
+- description:
+    label: Description
+    type: text
+    hint: Short description of blog post
+    required: true
+    unique: false
+    localized: false
+- content:
+    label: Content
+    type: text
+    hint: Entire body of text for this blog entry in rich HTML format
+    required: true
+    unique: false
+    localized: false
+    text_formatting: html
+- published_on:
+    label: Date Published
+    type: date
+    hint: The date when this blog entry was released (can backdate)
+    required: false
+    unique: false
+    localized: false
+- image:
+    label: Image
+    type: file
+    hint: Image related to blog post (logo, etc.)
+    required: false
+    unique: false
+    localized: false
+- skills:
+    label: Skills
+    type: many_to_many
+    hint: Which skills are related to this blog post
+    required: false
+    unique: false
+    localized: false
+    class_name: skills
+    inverse_of: blog_posts
+    ui_enabled: true
