@@ -1,40 +1,34 @@
 <div class="ui inverted footer vertical segment">
   <div class="ui stackable center aligned page grid">
     <div class="ten wide column">
-      <div class="ui three column center aligned stackable grid">
+      <div class="ui two column center aligned stackable grid">
         <div class="column">
-          <h5 class="ui inverted header">Courses</h5>
+          <h5 class="ui inverted header">Sections</h5>
           <div class="ui inverted link list">
-            <a class="item">Registration</a>
-            <a class="item">Course Calendar</a>
-            <a class="item">Professors</a>
+            {% with_scope published: true %}
+              {% for section in contents.sections %}
+                <a class="item" href="/{{ section._slug }}">{{ section.title }}</a>
+              {% endfor %}
+            {% endwith_scope %}
           </div>
         </div>
         <div class="column">
-          <h5 class="ui inverted header">Library</h5>
+          <h5 class="ui inverted header">Social Media</h5>
           <div class="ui inverted link list">
-            <a class="item">A-Z</a>
-            <a class="item">Most Popular</a>
-            <a class="item">Recently Changed</a>
-          </div>
-        </div>
-        <div class="column">
-          <h5 class="ui inverted header">Community</h5>
-          <div class="ui inverted link list">
-            <a class="item">BBS</a>
-            <a class="item">Careers</a>
-            <a class="item">Privacy Policy</a>
+            <a class="item" href="https://www.github.com">GitHub</a>
+            <a class="item" href="https://www.twitter.com">Twitter</a>
+            <a class="item" href="https://www.linkedin.com">LinkedIn</a>
           </div>
         </div>
       </div>
     </div>
     <div class="six wide column">
-      <h5 class="ui inverted header">Contact Us</h5>
+      <h5 class="ui inverted header">Contact Me</h5>
       <addr>
-        237 Catberry Road <br>
-        Milton Keynes, London <br>
+        123 Fake Street <br>
+        Someplace, Real, 12345 <br>
       </addr>
-      <p>(404) 867-5309</p>
+      <p>(800) 555-1212</p>
     </div>
   </div>
 </div>
