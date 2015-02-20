@@ -50,39 +50,7 @@ meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS
 <body id="{{ section }}" class="attache">
 
 {% block 'masthead' %}
-  <div class="ui inverted masthead segment">
-    <div class="ui page grid">
-      <div class="column">
-        <div class="ui fixed inverted main menu">
-          <a class="header item" href="/">{{ site.name }}</a>
-          <div class="right menu">
-            <div class="ui mobile dropdown link item">
-              Menu
-              <i class="dropdown icon"></i>
-              <div class="menu">
-                {% include 'nav' %}
-              </div>
-            </div>
-            {% include 'nav' %}
-          </div>
-        </div>
-        <div class="ui hidden transition information">
-          <h1 class="ui inverted header">
-            {{ masthead_title }}
-          </h1>
-          <p>{{ masthead_description }}</p>
-
-          {% block 'masthead_cta' %}
-            <a class="large basic inverted animated fade ui button" href="https://github.com/conroywhitney/attache">
-              <div class="visible content">Want to do great things together?</div>
-              <div class="hidden content">Click to send me a message</div>
-            </a>
-          {% endblock %}
-
-        </div>
-      </div>
-    </div>
-  </div>
+  {% include 'masthead' %}
 {% endblock %}
 
 {% block 'main' %}
@@ -166,46 +134,7 @@ meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS
 
 
 {% block 'footer' %}
-  <div class="ui inverted footer vertical segment">
-    <div class="ui stackable center aligned page grid">
-      <div class="ten wide column">
-        <div class="ui three column center aligned stackable grid">
-          <div class="column">
-            <h5 class="ui inverted header">Courses</h5>
-            <div class="ui inverted link list">
-              <a class="item">Registration</a>
-              <a class="item">Course Calendar</a>
-              <a class="item">Professors</a>
-            </div>
-          </div>
-          <div class="column">
-            <h5 class="ui inverted header">Library</h5>
-            <div class="ui inverted link list">
-              <a class="item">A-Z</a>
-              <a class="item">Most Popular</a>
-              <a class="item">Recently Changed</a>
-            </div>
-          </div>
-          <div class="column">
-            <h5 class="ui inverted header">Community</h5>
-            <div class="ui inverted link list">
-              <a class="item">BBS</a>
-              <a class="item">Careers</a>
-              <a class="item">Privacy Policy</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="six wide column">
-        <h5 class="ui inverted header">Contact Us</h5>
-        <addr>
-          237 Catberry Road <br>
-          Milton Keynes, London <br>
-        </addr>
-        <p>(404) 867-5309</p>
-      </div>
-    </div>
-  </div>
+  {% include 'footer' %}
 {% endblock %}
 
 </body>
