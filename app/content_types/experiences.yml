@@ -26,9 +26,9 @@ fields:
       required: false
       type: string
       unique: false
-  - summary:
+  - description:
       hint: "Describe what you did while there"
-      label: Summary
+      label: Description
       localized: false
       required: true
       text_formatting: html
