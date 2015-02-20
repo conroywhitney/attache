@@ -1,3 +1,5 @@
 # gitignore
 
 log/*
+
+config/deploy.yml
