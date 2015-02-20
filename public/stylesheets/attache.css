@@ -31,7 +31,7 @@ html {
   margin-bottom: 0.25em;
 }
 .attache .masthead .information {
-  margin: 10em 1em 1em 1px;
+  margin: 4em 1em 1em 1px;
 }
 .attache .masthead .information p {
   font-size: 1.5em;
@@ -52,7 +52,7 @@ html {
 }
 
 .attache .vertical.segment {
-  padding: 12rem 0rem;
+  padding: 8rem 0rem;
 }
 
 .attache .feature.segment {
