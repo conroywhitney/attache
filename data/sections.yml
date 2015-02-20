@@ -3,23 +3,29 @@
     _slug: experience
     summary: Education and Employment
     icon: student
+    published: true
 - Skills:
     _slug: skills
     summary: Unique specialities
     icon: code
+    published: true
 - Services:
     _slug: services
     summary: What I am good at
     icon: diamond
+    published: false
 - Projects:
     _slug: projects
     summary: Sidework and hobbies
     icon: cubes
+    published: false
 - Philosophy:
     _slug: philosophy
     summary: Blueprint of We
     icon: fire
+    published: false
 - Blog:
     _slug: blog
     summary: My professional opinion
     icon: newspaper
+    published: true

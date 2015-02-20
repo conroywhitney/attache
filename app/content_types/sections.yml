@@ -26,4 +26,9 @@ fields:
       required: true
       unique: true
       localized: false
-
+  - published:
+      type: boolean
+      label: Published
+      hint: "Whether to show in nav / front page"
+      required: true
+      localized: false
