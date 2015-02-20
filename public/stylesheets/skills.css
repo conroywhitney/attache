@@ -15,8 +15,7 @@
   border-radius: 0em;
 }
 
-#skills .statistics,
-#skills .bottom.button {
+#skills .statistics {
   display: none;
 }
 

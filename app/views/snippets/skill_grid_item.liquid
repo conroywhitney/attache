@@ -3,7 +3,7 @@
   <div class="ui left aligned card">
 
     <div class="content">
-      <a class="ui header" title="{{ skill.title }}">
+      <a class="ui header" href="{{ skill.url }}" title="{{ skill.title }}">
         {% if skill.image.url %}
           <img src="{{ skill.image.url }}" class="ui middle aligned avatar image">
         {% else %}
@@ -49,8 +49,8 @@
 
     </div><!-- /content -->
 
-    <a class="ui bottom attached button" href="{% path_to skill %}">
-      {{ skill.title }}
+    <a class="ui bottom attached button" href="{{ skill.url }}">
+      {{ skill.title }} Website
       <i class="long right arrow icon"></i>
     </a>
 
