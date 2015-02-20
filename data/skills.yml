@@ -1,18 +1,22 @@
 ---
 - "Lorem":
     _slug: lorem
+    description: Lorem ipsum dolor sit amet, modus habemus honestatis at vim, eu denique electram qui. Ne labore elaboraret mea, eam ad vero fierent definitionem.
     url: ~
     image: ~
 - "Ipsum":
     _slug: ipsum
+    description: Modus veniam commune qui te, modo labore duo no, graece cetero nec te. An usu ullum sonet eligendi, no pro dolorum minimum iudicabit.
     url: ~
     image: ~
 - "Dolor":
     _slug: dolor
+    description: Sit oblique intellegat an, te sed nostrud recusabo, te ius vide erat. Pri id sonet dissentias. No vix falli fabulas, ne aeque ignota dissentias quo.
     url: ~
     image: ~
 - "Sit Amet":
     _slug: sit-amet
+    description: Dicunt consequuntur interpretaris nam id, vim an pericula pertinacia, vis prompta suscipit intellegam no. Oporteat petentium eu nam, has natum augue aeque eu.
     url: ~
     image: ~
 

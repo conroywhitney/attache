@@ -23,6 +23,9 @@ meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS
   {% if seo_title == blank %}{% if page.templatized? %}{% assign seo_title = entry.seo_title %}{% else %}{% assign seo_title = page.seo_title %}{% endif %}{% endif %}
   {% if meta_description == blank %}{% if page.templatized? %}{% assign meta_description = entry.meta_description %}{% else %}{% assign meta_description = page.meta_description %}{% endif %}{% endif %}
 
+  {% if masthead_title == blank %}{% if page.templatized? %}{% assign masthead_title = entry.title %}{% else %}{% assign masthead_title = page.title %}{% endif %}{% endif %}
+  {% if masthead_description == blank %}{% if page.templatized? %}{% assign masthead_description = entry.description %}{% else %}{% assign masthead_description = page.meta_description %}{% endif %}{% endif %}
+
   <!-- site properities -->
   <title>{{ seo_title }}</title>
 
@@ -65,14 +68,14 @@ meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS
         </div>
         <div class="ui hidden transition information">
           <h1 class="ui inverted header">
-            {{ page.title }}
+            {{ masthead_title }}
           </h1>
-          <p>{{ meta_description }}</p>
+          <p>{{ masthead_description }}</p>
 
           {% block 'masthead_cta' %}
             <a class="large basic inverted animated fade ui button" href="https://github.com/conroywhitney/attache">
-              <div class="visible content">Learn More</div>
-              <div class="hidden content">View on GitHub</div>
+              <div class="visible content">Want to do great things together?</div>
+              <div class="hidden content">Click to send me a message</div>
             </a>
           {% endblock %}
 

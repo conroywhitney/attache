@@ -12,6 +12,13 @@ fields:
       required: true
       type: string
       unique: true
+  - description:
+      type: string
+      label: Description
+      hint: "Summary of experience with skill"
+      required: false
+      unique: false
+      localized: false
   - url:
       hint: "Link to skill homepage on interwebs"
       label: URL
