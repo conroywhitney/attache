@@ -1,0 +1,12 @@
+{% capture 'inverted_class' %}{% if inverted %}inverted{% else %}{% endif %}{% endcapture %}
+
+<div class="row">
+  <div class="center aligned column">
+    <h1 class="ui huge {{ inverted_class }} header">
+      {{ text }}
+    </h1>
+    <div class="ui horizontal divider">
+      <i class="ui massive {{ inverted_class }} {{ icon }} icon"></i>
+    </div>
+  </div>
+</div>

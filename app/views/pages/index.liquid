@@ -89,20 +89,13 @@ meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS
 
   {% block 'sections' %}
   <div class="ui vertical feature segment">
-
     <div class="ui stackable center aligned page grid">
-      <div class="row">
-        <div class="column">
-          <h1 class="ui huge header">
-            Where would you like to go today?
-          </h1>
-          <div class="ui horizontal divider"><i class="ui massive rocket icon"></i></div>
-        </div>
-      </div><!-- /header -->
-    </div>
 
-    {% include 'sections_grid' %}
+      {% include 'section_header_with_divider_icon' with icon: 'rocket', text: 'What would you like to know?' %}
 
+      {% include 'sections_grid' %}
+
+    </div><!-- /grid -->
   </div><!-- /segment -->
   {% endblock %}
   <!-- /sections block -->
@@ -112,14 +105,7 @@ meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS
   <div class="ui inverted vertical segment">
     <div class="ui stackable center aligned page grid">
 
-      <div class="row">
-        <div class="column">
-          <h1 class="ui huge inverted header">
-            Find me around the interwebs
-          </h1>
-          <div class="ui horizontal divider"><i class="ui massive inverted cloud icon"></i></div>
-        </div>
-      </div><!-- /header -->
+      {% include 'section_header_with_divider_icon' with icon: 'cloud', text: "Find me around the interwebs", inverted: true %}
 
       <div class="three column logo row">
         <div class="column">
@@ -149,14 +135,7 @@ meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS
   <div class="ui vertical segment">
     <div class="ui stackable center aligned page grid">
 
-      <div class="row">
-        <div class="column">
-          <h1 class="ui huge header">
-            Let's Do Great Things Together
-          </h1>
-          <div class="ui horizontal divider"><i class="ui huge heart icon"></i></div>
-        </div>
-      </div><!-- /header -->
+    {% include 'section_header_with_divider_icon' with icon: 'heart', text: "Let's do great things together" %}
 
       <div class="row">
         <div class="twelve wide column">

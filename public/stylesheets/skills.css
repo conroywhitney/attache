@@ -10,3 +10,27 @@
 #skills .ui.statistic + .ui.statistic {
 	margin: 0em 1em 0em;
 }
+
+
+
+/* Blog Posts */
+
+#skills .piled.segment {
+  margin-bottom: 2em;
+}
+
+
+/* Experiences */
+
+#skills .event {
+  margin-bottom: 5em;
+}
+
+#skills .event > .label {
+  width: 7em;
+}
+
+#skills .company {
+  font-size: 2em;
+}
+

@@ -1,9 +1,5 @@
-<div class="ui stackable centered page grid">
-
-  {% with_scope published: true %}
-    {% for section in contents.sections %}
-      {% include 'section_grid_item' with section %}
-    {% endfor %}
-  {% endwith_scope %}
-
-</div><!-- /grid -->
+{% with_scope published: true %}
+  {% for section in contents.sections %}
+    {% include 'section_grid_item' with section %}
+  {% endfor %}
+{% endwith_scope %}
