@@ -1,0 +1,12 @@
+#skills .card .header a {
+  font-size: 1.5em;
+}
+
+#skills .ui.statistics .statistic > .value, .ui.statistic > .value {
+  font-size: 1.5em;
+}
+
+#skills .ui.statistics > .statistic,
+#skills .ui.statistic + .ui.statistic {
+	margin: 0em 1em 0em;
+}

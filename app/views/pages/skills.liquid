@@ -15,21 +15,13 @@ meta_description: Et tollit placerat adipiscing mea, impetus conclusionemque cum
 {% block 'main' %}
 
   <div class="ui vertical segment">
-    <div class="ui very relaxed stackable center aligned page grid">
-      <div class="row">
-        <div class="thirteen wide column">
+    <div class="ui stackable centered page grid">
 
-          <ul>
+      {% for skill in contents.skills %}
+        {% include 'skill_grid_item' with skill %}
+      {% endfor %}
 
-            {% for skill in contents.skills %}
-              {% include 'skill_grid_item' with skill %}
-            {% endfor %}
-
-          </ul>
-
-        </div>
-      </div>
-    </div>
-  </div>
+    </div><!-- /grid -->
+  </div><!-- /segment -->
 
 {% endblock %}
