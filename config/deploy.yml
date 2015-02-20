@@ -1,9 +1,0 @@
-development:
-  host: localhost:3000
-  api_key: 638d6c172e016e1ec1b4f9620263eb68451f82a5
-heroku:
-  host: attache-production.herokuapp.com
-  api_key: abc123
-hosting:
-  host: attache.locomotivehosting.com
-  api_key: 9b042e7986886f6de4eedebcd436c893c32289e6
