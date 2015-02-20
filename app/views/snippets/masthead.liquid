@@ -1,0 +1,33 @@
+<div class="ui inverted masthead segment">
+  <div class="ui page grid">
+    <div class="column">
+      <div class="ui fixed inverted main menu">
+        <a class="header item" href="/">{{ site.name }}</a>
+        <div class="right menu">
+          <div class="ui mobile dropdown link item">
+            Menu
+            <i class="dropdown icon"></i>
+            <div class="menu">
+              {% include 'nav' %}
+            </div>
+          </div>
+          {% include 'nav' %}
+        </div>
+      </div>
+      <div class="ui hidden transition information">
+        <h1 class="ui inverted header">
+          {{ masthead_title }}
+        </h1>
+        <p>{{ masthead_description }}</p>
+
+        {% block 'masthead_cta' %}
+          <a class="large basic inverted animated fade ui button" href="https://github.com/conroywhitney/attache">
+            <div class="visible content">Want to do great things together?</div>
+            <div class="hidden content">Click to send me a message</div>
+          </a>
+        {% endblock %}
+
+      </div>
+    </div>
+  </div>
+</div>

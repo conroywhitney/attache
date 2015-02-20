@@ -1,0 +1,54 @@
+---
+name: Experiences
+description: Education and Employment that has prepared you for what you do
+slug: experiences
+label_field_name: title
+order_by: manually
+order_direction: asc
+fields:
+- title:
+    label: Title
+    type: string
+    hint: Name of employer, school, etc.
+    required: true
+    unique: true
+    localized: false
+- subtitle:
+    label: Subtitle
+    type: string
+    hint: Role at company, major, etc.
+    required: false
+    unique: false
+    localized: false
+- dates:
+    label: Dates
+    type: string
+    hint: String representation of date range
+    required: false
+    unique: false
+    localized: false
+- description:
+    label: Description
+    type: text
+    hint: Describe what you did while there
+    required: true
+    unique: false
+    localized: false
+    text_formatting: html
+- logo:
+    label: Logo
+    type: file
+    hint: Logo of company, university, etc.
+    required: false
+    unique: false
+    localized: false
+- skills:
+    label: Skills
+    type: many_to_many
+    hint: Which skills did you utilize while there
+    required: false
+    unique: false
+    localized: false
+    class_name: skills
+    inverse_of: experiences
+    ui_enabled: true

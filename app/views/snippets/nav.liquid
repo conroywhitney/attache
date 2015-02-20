@@ -1,0 +1,5 @@
+{% with_scope published: true %}
+  {% for section in contents.sections %}
+    <a class="item" href="/{{ section._slug }}">{{ section.title }}</a>
+  {% endfor %}
+{% endwith_scope %}

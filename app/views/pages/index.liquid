@@ -1,0 +1,149 @@
+---
+title: Attaché
+is_layout: false
+listed: false
+published: true
+cache_strategy: none
+response_type: text/html
+position: 0
+seo_title: Attaché - Responsive Web Portfolio
+meta_description: Attaché is a responsive web portfolio utilizing LocomotiveCMS and
+  SemanticUI. It includes sections for skills, experience, services, clients, philosophy,
+  blog entries, and contact form.
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible"    content="IE=edge,chrome=1">
+  <meta name="author"                   content="">
+  <meta name="viewport"                 content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="icon" type="image/x-icon"  href="{{ 'favicon.ico' | theme_image_url }}">
+  {% csrf_meta %}
+
+  <!-- page-specific variables -->
+  {% if fullpath == '/' %}{% assign section = 'homepage' %}{% elsif section == blank %}{% assign section = page.slug %}{% endif %}
+  {% capture 'section_stylesheet' %}{{ section }}.css{% endcapture %}
+  {% capture 'section_javascript' %}{{ section }}.js{% endcapture %}
+
+  {% if seo_title == blank %}{% if page.templatized? %}{% assign seo_title = entry.seo_title %}{% else %}{% assign seo_title = page.seo_title %}{% endif %}{% endif %}
+  {% if meta_description == blank %}{% if page.templatized? %}{% assign meta_description = entry.meta_description %}{% else %}{% assign meta_description = page.meta_description %}{% endif %}{% endif %}
+
+  {% if masthead_title == blank %}{% if page.templatized? %}{% assign masthead_title = entry.title %}{% else %}{% assign masthead_title = page.title %}{% endif %}{% endif %}
+  {% if masthead_description == blank %}{% if page.templatized? %}{% assign masthead_description = entry.description %}{% else %}{% assign masthead_description = page.meta_description %}{% endif %}{% endif %}
+
+  <!-- site properities -->
+  <title>{{ seo_title }}</title>
+
+  <!-- stylesheets -->
+  {{ 'semantic-1.9.0.css' | stylesheet_tag: 'all' }}
+  {{ 'attache.css' | stylesheet_tag: 'all' }}
+  {{ section_stylesheet | stylesheet_tag: 'all' }}
+  {% block 'stylesheets' %}
+    <!-- page-specific stylesheet; override in other pages -->
+  {% endblock %}
+
+  <!-- javascripts -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  {{ 'semantic-1.9.0.js' | javascript_tag }}
+  {{ 'attache.js' | javascript_tag }}
+  {{ section_javascript | javascript_tag }}
+  {% block 'javascripts' %}
+    <!-- page-specific javascript; override in other pages -->
+  {% endblock %}
+</head>
+
+<body id="{{ section }}" class="attache">
+
+{% block 'masthead' %}
+  {% include 'masthead' %}
+{% endblock %}
+
+{% block 'main' %}
+
+  {% block 'sections' %}
+  <div class="ui vertical feature segment">
+    <div class="ui stackable center aligned page grid">
+
+      {% include 'section_header_with_divider_icon' with icon: 'rocket', text: 'What would you like to know?' %}
+
+      {% include 'sections_grid' %}
+
+    </div><!-- /grid -->
+  </div><!-- /segment -->
+  {% endblock %}
+  <!-- /sections block -->
+
+
+  {% block 'socialmedia' %}
+  <div class="ui inverted vertical segment">
+    <div class="ui stackable center aligned page grid">
+
+      {% include 'section_header_with_divider_icon' with icon: 'cloud', text: "Find me around the interwebs", inverted: true %}
+
+      <div class="three column logo row">
+        <div class="column">
+          <a href="https://www.github.com">
+            <i class="huge inverted github icon"></i>
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://www.twitter.com">
+            <i class="huge inverted twitter icon"></i>
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://www.linkedin.com">
+            <i class="huge inverted square linkedin icon"></i>
+          </a>
+        </div>
+      </div><!-- /logos -->
+
+    </div><!-- /grid -->
+  </div><!-- /segment -->
+  {% endblock %}
+  <!-- /social media block -->
+
+
+  {% block 'contact' %}
+  <div class="ui vertical segment">
+    <div class="ui stackable center aligned page grid">
+
+    {% include 'section_header_with_divider_icon' with icon: 'heart', text: "Let's do great things together" %}
+
+      <div class="row">
+        <div class="twelve wide column">
+          <form class="ui form" id="contact_form">
+            <div class="two fields">
+              <div class="field">
+                <input placeholder="Your Name" type="text" id="contact_name" name="contact_name">
+              </div>
+              <div class="field">
+                <input placeholder="Your Email" type="text" id="contact_email" name="contact_email">
+              </div>
+            </div>
+            <div class="field">
+              <textarea placeholder="Your Message" id="contact_message" name="contact_message"></textarea>
+            </div>
+            <div class="ui primary submit button">Send Message</div>
+          </div>
+        </div>
+      </div><!-- /form -->
+
+    </div><!-- /grid -->
+  </div><!-- /segment -->
+  {% endblock %}
+  <!-- /contact block -->
+
+
+{% endblock %}
+
+
+{% block 'footer' %}
+  {% include 'footer' %}
+{% endblock %}
+
+</body>
+
+</html>

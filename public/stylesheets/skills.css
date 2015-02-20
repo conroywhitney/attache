@@ -1,0 +1,36 @@
+#skills .card .header a {
+  font-size: 1.5em;
+}
+
+#skills .ui.statistics .statistic > .value, .ui.statistic > .value {
+  font-size: 1.5em;
+}
+
+#skills .ui.statistics > .statistic,
+#skills .ui.statistic + .ui.statistic {
+	margin: 0em 1em 0em;
+}
+
+
+
+/* Blog Posts */
+
+#skills .piled.segment {
+  margin-bottom: 2em;
+}
+
+
+/* Experiences */
+
+#skills .event {
+  margin-bottom: 5em;
+}
+
+#skills .event > .label {
+  width: 7em;
+}
+
+#skills .company {
+  font-size: 2em;
+}
+

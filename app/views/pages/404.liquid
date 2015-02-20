@@ -1,0 +1,25 @@
+---
+title: 404 Page Not Found
+is_layout: false
+listed: false
+published: true
+cache_strategy: none
+response_type: text/html
+position: 100
+meta_description: Oops. The page you are looking for has moved or no longer exists.
+---
+{% extends index %}
+
+{% block 'main' %}
+
+  <div class="ui vertical feature segment">
+    <div class="ui stackable center aligned page grid">
+
+      {% include 'section_header_with_divider_icon' with icon: 'frown', text: 'Were you trying to go to one of these instead?' %}
+
+      {% include 'sections_grid' %}
+
+    </div><!-- /grid -->
+  </div><!-- /segment -->
+
+{% endblock %}

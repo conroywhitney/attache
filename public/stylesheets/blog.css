@@ -1,0 +1,30 @@
+#blog .vertical.segment {
+  padding: 4rem 0em;
+}
+
+#blog .piled.segment {
+  margin-bottom: 2em;
+}
+
+#blog .post {
+  padding: 2em 4em;
+  overflow: hidden;
+}
+
+#blog .post .header {
+  padding: 1em 0em;
+}
+
+#blog .post .content {
+  overflow: hidden;
+}
+
+#blog .post .tag.labels {
+  margin: 2em 0em 0em;
+  clear: both;
+  float: left;
+}
+
+#blog .post p {
+  font-size: 1.25em;
+}

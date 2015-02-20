@@ -1,0 +1,30 @@
+<div class="event">
+  <div class="label">
+    {% if experience.logo.url %}
+      <img src="{{ experience.logo.url }}">
+    {% else %}
+      <img src="{{ 'wireframe/square-image.png' | theme_image_url }}">
+    {% endif %}
+  </div>
+  <div class="content">
+    <div class="summary">
+      <a class="company" href="{% path_to experience %}">
+        {{ experience.title }}
+      </a>
+      <div class="date">
+        {{ experience.dates }}
+      </div>
+      <div class="role">
+        {{ experience.subtitle }}
+      </div>
+    </div>
+    <div class="extra text">
+      {{ experience.description }}
+    </div>
+    <div class="extra tags">
+      {% for skill in experience.skills %}
+        <a class="ui tag label" href="{% path_to skill %}">{{ skill.title }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</div>

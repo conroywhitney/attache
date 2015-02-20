@@ -1,0 +1,143 @@
+/*******************************
+            Global
+*******************************/
+
+
+
+html {
+  font-size: 14px;
+}
+
+
+/*******************************
+            Global
+*******************************/
+
+.attache .menu .right.menu > .mobile.item {
+  display: none;
+}
+
+/*--------------
+    Masthead
+---------------*/
+
+.attache .masthead {
+  background-image: url(../images/bg.jpg);
+  margin: 0em;
+  padding: 5rem 0rem;
+}
+.attache .masthead .column {
+  position: relative;
+}
+.attache .masthead.segment h1 {
+  margin-bottom: 0.25em;
+}
+.attache .masthead .information {
+  margin: 4em 1em 1em 1px;
+}
+.attache .masthead .information p {
+  font-size: 1.5em;
+}
+.attache .masthead .image {
+  position: absolute;
+  left: 0%;
+  bottom: -110px;
+}
+
+/*--------------
+    Ribbons
+---------------*/
+
+.attache .segment h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.attache .vertical.segment {
+  padding: 8rem 0rem;
+}
+
+.attache .feature.segment {
+  margin: 0em;
+  padding: 6rem 0rem;
+}
+.attache .feature.segment p {
+  min-height: 50px;
+}
+
+.attache .selection.list {
+  margin: 0em -0.5em;
+}
+
+.attache .logo.row {
+  height: 10rem;
+}
+
+.attache .ui.divider > .icon {
+  font-size: 2em;
+}
+
+/*--------------
+    Footer
+---------------*/
+
+.attache .footer.segment {
+  background-color: #000000;
+  padding: 3rem 0rem;
+}
+
+
+/*******************************
+          Responsive
+*******************************/
+
+/* Mobile Only */
+@media only screen and (max-width : 768px) {
+
+  .attache .menu .right.menu > .item {
+    display: none;
+  }
+
+  .attache .menu .right.menu > .mobile.item {
+    display: block;
+  }
+  .attache .menu .right.menu > .mobile.item .menu {
+    left: auto;
+    right: 0em;
+  }
+
+  .attache h1 {
+    font-size: 1.5em;
+  }
+  .attache .masthead.segment .information {
+    margin-left: 170px;
+  }
+
+  .attache .masthead.segment .image {
+    width: 170px;
+  }
+
+  .attache .masthead.segment .button {
+    font-size: 1rem;
+  }
+
+  .attache .overview .divided.grid .header .icon {
+    font-size: 1.5em;
+  }
+
+  .attache .overview .divided.grid .header + p {
+    min-height: 0px;
+  }
+
+  .attache .masthead.segment .column {
+    font-size: 0.7rem;
+  }
+
+  .attache .masthead.segment .column p {
+    display: none;
+  }
+
+  .attache .selection.list .right.floated {
+    display: none;
+  }
+}
