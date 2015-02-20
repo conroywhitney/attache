@@ -8,20 +8,13 @@ published: true
 {% block 'main' %}
 
   <div class="ui vertical feature segment">
-
     <div class="ui stackable center aligned page grid">
-      <div class="row">
-        <div class="column">
-          <h1 class="ui large header">
-            Were you trying to go to one of these instead?
-          </h1>
-          <div class="ui horizontal divider"><i class="ui large frown icon"></i></div>
-        </div>
-      </div><!-- /header -->
-    </div>
 
-    {% include 'sections_grid' %}
+      {% include 'section_header_with_divider_icon' with icon: 'frown', text: 'Were you trying to go to one of these instead?' %}
 
+      {% include 'sections_grid' %}
+
+    </div><!-- /grid -->
   </div><!-- /segment -->
 
 {% endblock %}

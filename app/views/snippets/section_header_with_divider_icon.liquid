@@ -1,12 +1,12 @@
-{% capture 'icon_class' %}ui massive {{ icon }} icon{% endcapture %}
+{% capture 'inverted_class' %}{% if inverted %}inverted{% else %}{% endif %}{% endcapture %}
 
 <div class="row">
-  <div class="column">
-    <h1 class="ui huge header">
+  <div class="center aligned column">
+    <h1 class="ui huge {{ inverted_class }} header">
       {{ text }}
     </h1>
     <div class="ui horizontal divider">
-      <i class="{{ icon_class }}"></i>
+      <i class="ui massive {{ inverted_class }} {{ icon }} icon"></i>
     </div>
   </div>
 </div>
