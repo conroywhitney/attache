@@ -10,3 +10,20 @@
       - ispum
       - dolor
       - sit-amet
+- "Voluptatum":
+    _slug: voluptatum
+    subtitle: "Has et modus persecuti moderatius"
+    dates: "Jan 1970 - Dec 21, 2012"
+    description: "Elitr consul assueverit ex mea, modo wisi nam ne. Duo id justo dicta equidem, suas expetendis philosophia at eos. Has vidit summo aperiam eu, feugiat petentium eam ut. Ne graece graeci rationibus sed, te nibh ubique adolescens nam, commune convenire in pro. Ei nec dicant fierent, ius dictas doctus ne, ei case consequuntur qui. Eu mea viris accusam, sea movet phaedrum ne. Facer iudico eos te, eu nec vidit eleifend efficiantur."
+    logo: ~
+    skills:
+      - lorem
+      - dolor
+- "Conclusionemque":
+    _slug: conclusionemque
+    subtitle: "Volutpat aliquando"
+    dates: "1/2/3456 - 8/9/1011"
+    description: "Mundi denique detraxit nam ei, quo id facete inimicus, mei eu ullum verterem eleifend. Ad aeterno accusata abhorreant sea, vix corpora fabellas ea. Cum ludus propriae reformidans ut, ea mel mollis saperet disputationi. Est tollit electram ad. Per oratio libris et, nam veri ocurreret no. Stet graece malorum nam cu, no vocent debitis est, ne eam vidisse suavitate."
+    logo: ~
+    skills:
+      - sit-amet
