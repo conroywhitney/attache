@@ -15,10 +15,6 @@
   border-radius: 0em;
 }
 
-#skills .statistics {
-  display: none;
-}
-
 #skills .ui.statistics .statistic > .value, .ui.statistic > .value {
   font-size: 1.5em;
 }
@@ -51,4 +47,3 @@
 #skills .company {
   font-size: 2em;
 }
-
