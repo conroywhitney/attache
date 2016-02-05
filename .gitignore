@@ -1,5 +1,6 @@
 # gitignore
 
 log/*
+dragonfly.log
 
 config/deploy.yml
